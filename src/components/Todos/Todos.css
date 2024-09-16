@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+body{
+   background-image: url('../src/Images/wood-material-background-wallpaper-texture-concept.jpg') ;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100%;
+}
+ul{
+    
+    padding: 50px;
+    align-items:center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 45px;
+    
+}
+.todos__item{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border: 6px solid red;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 45px;
+    font-weight: 300;
+    align-items: center;
+    width: 500px;
+    
+}
+.todos__item_completed{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;    
+    color: rgb(0, 0, 0);
+    background-color: rgb(2, 251, 31);
+    padding: 45px;
+    align-items: center;
+    font-weight: 300;
+    width: 500px;
+    border: 6px solid gold;
+    
+}
+
+.todos__box_btn{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+button{
+    width: 150px;
+    box-sizing: border-box;
+    background-color: gold;
+    color:black;
+    padding: 10px;   
+    cursor: pointer;
+}
+.btn__change{
+    background-color: rgb(5, 13, 249);
+    color:white
+}
+input{
+    cursor: pointer;
+}
